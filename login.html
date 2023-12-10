@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrazyDapper Clothings</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logonobg.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="clothings.html">CLOTHINGS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="wrapper">
+            <div class="form-boxl">
+                <h2>Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail-outline"></ion-icon>
+                        </span>
+                        <input type="email" required>
+                        <label>Email</label> 
+                    </div>
+                        <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label> 
+                        </div>
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">Remember me</label>
+                            <a href="forgotpass">Forgot Passowrd?</a>
+                        </div>
+                        <button type="submit" class="button" onclick="location.href='./index.html'">Login</button>
+                        <div class="register">
+                            <p> Don't have an account?<a href = "#" class = "register-link"> Register Here!!</a></p>
+                        </div>
+                </form>
+            </div>
+    
+            <div class="form-boxr">
+                <h2>Registration</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person-outline"></ion-icon></ion-icon>
+                        </span>
+                        <input type="text" required>
+                        <label>Username</label> 
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail-outline"></ion-icon>
+                        </span>
+                        <input type="email" required>
+                        <label>Email</label> 
+                    </div>
+                        <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label> 
+                        </div>
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">I agree to the terms and conditions</label>
+                            <a href="termsconiditon"></a>
+                        </div>
+                        <button type="submit" class="button">Register</button>
+                        <div class="register">
+                            <p> Already have an account?<a href = "#" class = "login-link"> Login Here!!</a></p>
+                        </div>
+                </form>
+            </div>
+        </div>
+
+
+
+    </script>
+    <script src = "script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
