@@ -5,13 +5,13 @@
 
 ![The Website Logo!](/images/logo.png "CrazyDapper Logo")
 
-<p>**School:** University of Makati<br>
-**College:** College of Computing and Information Science<br>
-**Program:** Bachelor of Science in Information Technology (Information and Network Security Elective Track)<br>
-**Year:** I<br>
-**Section:** CINS</p>
+<p><strong>School:</strong> University of Makati<br>
+<strong>College:</strong> College of Computing and Information Science<br>
+<strong>Program:</strong> Bachelor of Science in Information Technology (Information and Network Security Elective Track)<br>
+<strong>Year:</strong> I<br>
+<strong>Section:</strong> CINS</p>
 
 <p>Members and Roles:<br>
-**Project Manager & Lead Coder** - Polinio<br>
-**Assistant Coder** - Del Villar<br>
-**Lead Designer** - Palma</p>
+<strong>Project Manager & Lead Coder</strong> - Polinio<br>
+<strong>Assistant Coder</strong> - Del Villar<br>
+<strong>Lead Designer</strong> - Palma</p>
