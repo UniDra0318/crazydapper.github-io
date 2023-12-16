@@ -383,6 +383,9 @@ nav .fa{
     .nav-links ul li{
         display: block;
     }
+    .nav-links .btnlogin{
+        display: block;
+    }
     .nav-links{
         position: absolute;
         background: #444444;
