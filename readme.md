@@ -1,4 +1,5 @@
 # CrazyDapper Website
+![The Website Logo!]{/images/logo.png "CrazyDapper Logo")
 
 An E-Commerce Website Project created by 3 students for their Introduction to Computing Subject
 We present to you, the CrazyDapper Website
