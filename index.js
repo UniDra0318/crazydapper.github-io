@@ -10,7 +10,7 @@ var navLinks = document.getElementById("navLinks")
         }
 
         var hsla = 0;
-        var bg = document.getElementById('gallerymode');
+        var bg = document.getElementById('gallerymodels');
         setInterval(()=>{
         hsla = hsla+1;
         bg.style.background = `hsla(${hsla},90%, 20%, 1)`;
