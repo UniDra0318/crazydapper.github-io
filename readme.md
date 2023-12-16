@@ -1,8 +1,8 @@
-# CrazyDapper Website
 ![The Website Logo!](/images/logo.png "CrazyDapper Logo")
+# CrazyDapper Website
 
-An E-Commerce Website Project created by 3 students for their Introduction to Computing Subject
-We present to you, the CrazyDapper Website
+<p>An E-Commerce Website Project created by 3 students for their Introduction to Computing Subject
+<br>We present to you, the CrazyDapper Website</p>
 
 School: University of Makati
 College: College of Computing and Information Science
