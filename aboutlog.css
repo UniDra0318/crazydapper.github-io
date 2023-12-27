@@ -1,0 +1,181 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(196, 196, 196));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 10%;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(68, 68, 68, 0.75);
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(75, 115, 224);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.text-box h1{
+    font-size: 47px;
+}
+.text-box p{
+    font-size: 15px;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #824fe2;
+    background: #824fe2;
+    transition: 1s;
+}
+nav .fa{
+    display: none;
+}
+.nav-links .btnlogin {
+    width: 130px;
+    height: 50x;
+    background: transparent;
+    border: 2px transparent;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.userpage{
+    padding-left: 2.5%;
+}   
+.userimg {
+    cursor: pointer;
+    border-radius: 50%;
+    max-width: 50px;
+    transition: 0.2, ease;
+}
+.userimg:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
+}
+.btnlogin:hover{
+    border: 1px solid #824fe2;
+    background: #824fe2;
+    transition: 1s;
+}   
+.title{
+    font-size: 75px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: black;
+}
+.pic{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+.person{
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+}
+.text{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+@media(max-width: 700px){
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: #444444;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+    .title{
+        font-size: 50px;
+    }
+    .person{
+        font-family: 'Poppins', sans-serif;
+    }
+    .pic{
+        width: 50%;
+    }
+    .text{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
